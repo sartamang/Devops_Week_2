@@ -2,8 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #000;
-    background: linear-gradient(to bottom, #ff9a9e, #fad0c4);
+    color: #4a0e0e;
+    background: linear-gradient(to bottom, #f37175, #f85a5f, #f04a1c);
 }
 
 .menu-container {
@@ -11,20 +11,21 @@ body {
     margin: 50px auto;
     padding: 30px;
     border-radius: 10px;
-    background: #f8f8f8;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    background: linear-gradient(to bottom, #fdfcfc, #f3c3c4, #eec0b3);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
     text-align: center;
 }
 
 .menu-container h1 {
     font-family: cursive, sans-serif;
     font-size: 36px;
+    color: #9c1d1d;
     margin-bottom: 5px;
 }
 
 .menu-container p.subtitle {
     font-size: 14px;
-    color: #666;
+    color: #9b4646;
     margin-bottom: 30px;
 }
 
@@ -32,10 +33,10 @@ h2 {
     font-size: 20px;
     margin-top: 30px;
     margin-bottom: 10px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #d38c8c;
     padding-bottom: 5px;
     text-align: left;
-    color: #000;
+    color: #da2626;
 }
 
 .menu-item {
@@ -50,15 +51,16 @@ h2 {
 
 .menu-item .item-name {
     font-weight: bold;
-    color: #000000c9;
+    color: #ce4545;
 }
 
 .menu-item .item-description {
     font-size: 12px;
-    color: #666;
+    color: #9b4646;
     font-style: italic;
 }
 
 .menu-item .price {
     font-weight: bold;
+    color: #ce4545;
 }

@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    background: linear-gradient(to bottom, #ff9a9e, #fad0c4);
+}
+
+.menu-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    background: #f8f8f8;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.menu-container h1 {
+    font-family: cursive, sans-serif;
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+.menu-container p.subtitle {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    text-align: left;
+    color: #000;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.item-left {
+    text-align: left;
+}
+
+.menu-item .item-name {
+    font-weight: bold;
+    color: #000000c9;
+}
+
+.menu-item .item-description {
+    font-size: 12px;
+    color: #666;
+    font-style: italic;
+}
+
+.menu-item .price {
+    font-weight: bold;
+}

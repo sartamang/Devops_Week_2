@@ -11,7 +11,7 @@ body {
     margin: 50px auto;
     padding: 30px;
     border-radius: 10px;
-    background: linear-gradient(to bottom, #fdfcfc, #f3c3c4, #eec0b3);
+    background: linear-gradient(to top, #fdfcfc, #f3c3c4, #eec0b3);
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
     text-align: center;
 }
